@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+	<hibernate-mapping>
+	
+	<class name="com.mapping.xml.Books" table="Books">
+	
+	<id name="autId" column="Authour_ID"></id>
+	
+	<property name="price" column="PRICE" type="int"></property>
+	<property name="autName" column="AUT_Name" type="string"></property>
+	<property name="autBook" column="AUTBook" type="string"></property>
+	<property name="autCity" column="AUT_City" type="string"></property>
+	
+	
+	</class>
+	
+	
+	
+	</hibernate-mapping>
